@@ -58,6 +58,15 @@ static UriParameters uriparams[] = {
 	}, },
 };
 
+static SearchEngine searchengines[] = {
+	{ "d", "https://duckduckgo.com/?q=%s" },
+	{ "g", "https://www.google.de/search?q=%s" },
+	{ "leo", "https://dict.leo.org/ende?search=%s" },
+	{ "e", "https://www.ecosia.org/search?q=%s" },
+};
+
+#define HOMEPAGE "https://duckduckgo.com"
+
 /* default window size: width, height */
 static int winsize[] = { 800, 600 };
 
@@ -213,5 +222,3 @@ static Button buttons[] = {
 	{ OnAny,        0,              9,      clicknavigate,  { .i = +1 },    1 },
 	{ OnMedia,      MODKEY,         1,      clickexternplayer, { 0 },       1 },
 };
-
-#define HOMEPAGE "https://duckduckgo.com/"
