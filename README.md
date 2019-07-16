@@ -38,3 +38,6 @@ instance of tabbed.
 [0] http://tools.suckless.org/dmenu
 [1] http://tools.suckless.org/tabbed
 
+## Patches
+
+- http://surf.suckless.org/patches/homepage/surf-2.0-homepage.diff
