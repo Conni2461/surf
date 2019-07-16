@@ -41,3 +41,4 @@ instance of tabbed.
 ## Patches
 
 - http://surf.suckless.org/patches/homepage/surf-2.0-homepage.diff
+- http://surf.suckless.org/patches/bookmarking/surf-bookmarks-20170722-723ff26.diff
